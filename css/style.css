@@ -296,6 +296,10 @@ body {
   background: linear-gradient(135deg, #1b2a41, #25395c);
 }
 
+.vehicle-image img{
+  height: 200px;
+}
+
 .vehicle-copy {
   padding: 22px;
   display: flex;
