@@ -143,9 +143,7 @@ LKR 4,850,000
 [View Details] [WhatsApp Inquiry]
 ```
 
-**Closing CTA band**
-- Text: `Looking for something specific? Tell us what you need.`
-- Button: `Contact Us`
+:
 
 ---
 
