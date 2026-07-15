@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financing & Trade-In | Oswal Motors</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="imgs/logo/logo.svg" alt="Oswal Motors Logo" class="logo-image">
+      <h1>Oswal Motors</h1>
+    </div>
+    <button class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="menu-items">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="inventory.html">Inventory</a></li>
+        <li><a href="financing.html">Finance</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+    <a href="contact.html" class="header-cta">Let's talk</a>
+  </nav>
+
+  <main style="margin-top: 80px;">
+    <section class="page-header">
+      <span class="page-highlight">Financing</span>
+      <h1>Flexible financing and trade-in options</h1>
+      <p class="page-intro">At Oswal Motors, we make buying your next vehicle easy. Explore our financing packages and understand how trade-in valuations work.</p>
+    </section>
+
+    <!-- Financing Options -->
+    <section class="section">
+      <div class="section-header">
+        <p class="section-label">How it works</p>
+        <h2>Simple financing options</h2>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <h3>Direct Purchase</h3>
+          <p>Pay the full amount upfront and drive away the same day. Discounts available for cash purchases.</p>
+          <p style="font-weight: 700; color: #ff7a18;">Fastest option</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Bank Financing</h3>
+          <p>We work with partner banks to offer competitive loan rates. Flexible repayment terms from 12 to 60 months.</p>
+          <p style="font-weight: 700; color: #ff7a18;">Rates from 8% onwards</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Installment Plans</h3>
+          <p>Special payment plans tailored to your budget. No hidden charges, transparent terms and conditions.</p>
+          <p style="font-weight: 700; color: #ff7a18;">Monthly plans available</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Trade-In Section -->
+    <section class="section">
+      <div class="section-header">
+        <p class="section-label">Trade-in options</p>
+        <h2>Upgrade your vehicle easily</h2>
+      </div>
+
+      <div class="value-grid">
+        <article class="value-card">
+          <h3>Free Vehicle Assessment</h3>
+          <p><span style="font-weight: 700;">Step 1:</span> Bring your current vehicle for a free inspection and valuation.</p>
+        </article>
+
+        <article class="value-card">
+          <h3>Instant Trade-In Value</h3>
+          <p><span style="font-weight: 700;">Step 2:</span> We'll provide a fair market value based on year, mileage, and condition.</p>
+        </article>
+
+        <article class="value-card">
+          <h3>Apply to New Purchase</h3>
+          <p><span style="font-weight: 700;">Step 3:</span> Trade-in value is applied directly to reduce the price of your new vehicle.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Financing Form -->
+    <section class="section">
+      <div class="section-header">
+        <p class="section-label">Get started</p>
+        <h2>Tell us about your financing needs</h2>
+      </div>
+
+      <form class="financing-form" id="financingForm">
+        <h3>Financing Inquiry Form</h3>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="financingName">Full Name *</label>
+            <input type="text" id="financingName" name="name" required placeholder="John Doe">
+          </div>
+          <div class="form-field">
+            <label for="financingEmail">Email Address *</label>
+            <input type="email" id="financingEmail" name="email" required placeholder="john@example.com">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="financingPhone">Phone Number *</label>
+            <input type="tel" id="financingPhone" name="phone" required placeholder="+94 77 123 4567">
+          </div>
+          <div class="form-field">
+            <label for="budget">Budget Range *</label>
+            <select id="budget" name="budget" required>
+              <option value="">Select a budget range</option>
+              <option value="below-2m">Below LKR 2,000,000</option>
+              <option value="2m-4m">LKR 2,000,000 - 4,000,000</option>
+              <option value="4m-6m">LKR 4,000,000 - 6,000,000</option>
+              <option value="6m-8m">LKR 6,000,000 - 8,000,000</option>
+              <option value="above-8m">Above LKR 8,000,000</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="vehicleType">Vehicle Type of Interest *</label>
+            <select id="vehicleType" name="vehicleType" required>
+              <option value="">Select vehicle type</option>
+              <option value="sedan">Sedan</option>
+              <option value="suv">SUV</option>
+              <option value="hatchback">Hatchback</option>
+              <option value="bike">Bike</option>
+              <option value="van">Van</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="financingOption">Preferred Financing Option *</label>
+            <select id="financingOption" name="financingOption" required>
+              <option value="">Select option</option>
+              <option value="cash">Direct Purchase</option>
+              <option value="bank-loan">Bank Financing</option>
+              <option value="installment">Installment Plan</option>
+              <option value="tradein">Trade-In Option</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="tradeInVehicle">Current Vehicle Details (if trading in)</label>
+          <input type="text" id="tradeInVehicle" name="tradeInVehicle" placeholder="e.g., 2016 Honda Civic, 80,000 km">
+        </div>
+
+        <div class="form-field">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" required placeholder="Tell us more about your financing needs..."></textarea>
+        </div>
+
+        <button type="submit" class="form-submit">Submit Inquiry</button>
+      </form>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+      <div class="section-header">
+        <p class="section-label">FAQ</p>
+        <h2>Frequently asked questions</h2>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <h3>What documents do I need?</h3>
+          <p>You'll need a valid ID, proof of income, and bank statements. Our team will guide you through the complete documentation process.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>How long does approval take?</h3>
+          <p>Most financing approvals are completed within 24-48 hours. We work with multiple banks to ensure quick processing.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Can I get pre-approved?</h3>
+          <p>Yes! We offer pre-approval consultations. Call us or fill the form above to start the pre-approval process today.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section closing-cta-section">
+      <div class="closing-cta">
+        <p>Ready to find your next vehicle?</p>
+        <a href="inventory.html" class="button-primary">Browse Inventory</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="imgs/logo/logo.svg" alt="Oswal Motors" class="logo-image">
+        <p>Oswal Motors delivers inspected used vehicles, flexible financing and friendly service across Sri Lanka.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h3>Quick links</h3>
+          <a href="index.html">Home</a>
+          <a href="inventory.html">Inventory</a>
+          <a href="about.html">About us</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>+94 77 123 4567</p>
+          <p>info@oswalmotors.lk</p>
+          <p>Gampola, Central Province</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Oswal Motors. All rights reserved.</div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
